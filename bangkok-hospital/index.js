@@ -35,7 +35,12 @@ const data = hospitalName.map((el) => {
 		name_th: el,
 		name_en: "Dummy",
 		dateTime: generatedDateTime,
-		vaccines: [avaliableVaccines[0], avaliableVaccines[1], avaliableVaccines[2]]
+		vaccines: [
+			avaliableVaccines[0],
+			avaliableVaccines[1],
+			avaliableVaccines[2]
+		],
+		priority: 2
 	}
 	for (let i = 1; i <= vaccineRandom; i++) {
 		returnData.vaccines.push(avaliableVaccines[2 + i])
