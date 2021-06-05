@@ -1,0 +1,11 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MeVaccine/utils.git",
+  "author": "Sethanant Pipatpakorn <the_tkpark@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dayjs": "^1.10.5"
+  }
+}
