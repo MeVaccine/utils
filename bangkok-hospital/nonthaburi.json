@@ -1,0 +1,42 @@
+[
+    {
+        "name_th": "โรงพยาบาลพระนั่งเกล้า",
+        "name_en": "Pranangklao Hospital",
+        "priority": 2
+    },
+    {
+        "name_th": "โรงพยาบาลนนทเวช",
+        "name_en": "Nonthavej Hospital",
+        "priority": 2
+    },
+    {
+        "name_th": "โรงพยาบาลไทรน้อย",
+        "name_en": "Sai Noi Hospital",
+        "priority": 2
+    },
+    {
+        "name_th": "โรงพยาบาลบางกรวย",
+        "name_en": "Bangkruai Hospital",
+        "priority": 2
+    },
+    {
+        "name_th": "โรงพยาบาลบางบัวทอง",
+        "name_en": "Bangbuathong Hospital",
+        "priority": 2
+    },
+    {
+        "name_th": "โรงพยาบาลบางใหญ่",
+        "name_en": "Bangyai Hospital",
+        "priority": 2
+    },
+    {
+        "name_th": "โรงพยาบาลปากเกร็ด",
+        "name_en": "Pakkred Hospital",
+        "priority": 2
+    },
+    {
+        "name_th": "โรงพยาบาลวิภารามปากเกร็ด",
+        "name_en": "Vibharam Pakkred Hospital",
+        "priority": 2
+    }
+]

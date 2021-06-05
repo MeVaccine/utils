@@ -1,10 +1,14 @@
 const fs = require("fs")
 const path = require("path")
 const generateDateTime = require("./dateTime")
+const nonthaburi = require("./nonthaburi.json")
 
-const raw = fs.readFileSync(path.resolve(__dirname, "raw.txt"), "utf-8")
+const rawBangkok = fs.readFileSync(
+	path.resolve(__dirname, "bangkok.txt"),
+	"utf-8"
+)
 
-const hospitalName = raw.split("<td>")
+const hospitalName = rawBangkok.split("<td>")
 const avaliableVaccines = [
 	{
 		name: "Sinovac",
@@ -28,7 +32,7 @@ const avaliableVaccines = [
 	}
 ]
 
-const data = hospitalName.map((el) => {
+const bangkokHospital = hospitalName.map((el) => {
 	const generatedDateTime = generateDateTime()
 	const vaccineRandom = Math.floor(Math.random() * 3)
 	const returnData = {
@@ -47,9 +51,32 @@ const data = hospitalName.map((el) => {
 	}
 	return returnData
 })
-fs.unlinkSync(path.resolve(__dirname, "hospitals.json"))
 
+const nonthaburiHospital = nonthaburi.map((el) => {
+	const generatedDateTime = generateDateTime()
+	const vaccineRandom = Math.floor(Math.random() * 3)
+	const data = {
+		name_th: el.name_th,
+		name_en: el.name_en,
+		dateTime: generatedDateTime,
+		vaccines: [
+			avaliableVaccines[0],
+			avaliableVaccines[1],
+			avaliableVaccines[2]
+		],
+		priority: el.priority
+	}
+
+	for (let i = 1; i <= vaccineRandom; i++) {
+		data.vaccines.push(avaliableVaccines[2 + i])
+	}
+	return data
+})
+
+const allData = [...bangkokHospital, ...nonthaburiHospital]
+
+fs.unlinkSync(path.resolve(__dirname, "hospitals.json"))
 fs.writeFileSync(
 	path.resolve(__dirname, "hospitals.json"),
-	JSON.stringify(data)
+	JSON.stringify(allData)
 )
