@@ -1,50 +1,50 @@
-const fs = require("fs")
-const path = require("path")
-const generateDateTime = require("./dateTime")
-const nonthaburi = require("./nonthaburi.json")
+const fs = require('fs')
+const path = require('path')
+const generateDateTime = require('./dateTime')
+const nonthaburi = require('./nonthaburi.json')
 
-const rawBangkok = fs.readFileSync(
-	path.resolve(__dirname, "bangkok.txt"),
-	"utf-8"
-)
+const rawBangkok = fs.readFileSync(path.resolve(__dirname, 'bangkok.txt'), 'utf-8')
 
-const hospitalName = rawBangkok.split("<td>")
+const hospitalName = rawBangkok.split('<td>')
 const avaliableVaccines = [
 	{
-		name: "Sinovac",
-		amount: 5000
+		name: 'Sinovac',
+		amount: 5000,
+		avaliable: 5000,
 	},
 	{
-		name: "Sinopharm",
-		amount: 5000
+		name: 'Sinopharm',
+		amount: 5000,
+		avaliable: 5000,
 	},
 	{
-		name: "Oxford–AstraZeneca",
-		amount: 10000
+		name: 'Oxford–AstraZeneca',
+		amount: 10000,
+		avaliable: 10000,
 	},
 	{
-		name: "Pfizer-BioNTech",
-		amount: 10000
+		name: 'Pfizer-BioNTech',
+		amount: 10000,
+		avaliable: 10000,
 	},
 	{
-		name: "Moderna",
-		amount: 5000
-	}
+		name: 'Moderna',
+		amount: 5000,
+		avaliable: 5000,
+	},
 ]
 
-const bangkokHospital = hospitalName.map((el) => {
+const bangkokHospital = hospitalName.map(el => {
 	const generatedDateTime = generateDateTime()
 	const vaccineRandom = Math.floor(Math.random() * 3)
 	const returnData = {
 		name_th: el,
-		name_en: "Dummy",
+		name_en: 'Dummy',
 		dateTime: generatedDateTime,
-		vaccines: [
-			avaliableVaccines[0],
-			avaliableVaccines[1],
-			avaliableVaccines[2]
-		],
-		priority: 2
+		vaccines: [avaliableVaccines[0], avaliableVaccines[1], avaliableVaccines[2]],
+		priority: 2,
+		province_th: 'กรุงเทพมหานคร',
+		province_en: 'Bangkok',
 	}
 	for (let i = 1; i <= vaccineRandom; i++) {
 		returnData.vaccines.push(avaliableVaccines[2 + i])
@@ -52,19 +52,17 @@ const bangkokHospital = hospitalName.map((el) => {
 	return returnData
 })
 
-const nonthaburiHospital = nonthaburi.map((el) => {
+const nonthaburiHospital = nonthaburi.map(el => {
 	const generatedDateTime = generateDateTime()
 	const vaccineRandom = Math.floor(Math.random() * 3)
 	const data = {
 		name_th: el.name_th,
 		name_en: el.name_en,
 		dateTime: generatedDateTime,
-		vaccines: [
-			avaliableVaccines[0],
-			avaliableVaccines[1],
-			avaliableVaccines[2]
-		],
-		priority: el.priority
+		vaccines: [avaliableVaccines[0], avaliableVaccines[1], avaliableVaccines[2]],
+		priority: el.priority,
+		province_th: 'นนทบุรี',
+		province_en: 'Nonthaburi',
 	}
 
 	for (let i = 1; i <= vaccineRandom; i++) {
@@ -75,8 +73,5 @@ const nonthaburiHospital = nonthaburi.map((el) => {
 
 const allData = [...bangkokHospital, ...nonthaburiHospital]
 
-fs.unlinkSync(path.resolve(__dirname, "hospitals.json"))
-fs.writeFileSync(
-	path.resolve(__dirname, "hospitals.json"),
-	JSON.stringify(allData)
-)
+fs.unlinkSync(path.resolve(__dirname, 'hospitals.json'))
+fs.writeFileSync(path.resolve(__dirname, 'hospitals.json'), JSON.stringify(allData))
