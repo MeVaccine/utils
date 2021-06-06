@@ -1,3 +1,5 @@
+const fs = require('fs')
+const path = require('path')
 const generateDateTime = require('./dateTime')
 const nonthaburi = require('./nonthaburi.json')
 const bangkok = require('./bangkok.json')
@@ -56,7 +58,5 @@ const allData = [
 	...generateData(nonthaburi, 'นนทบุรี', 'Nonthaburi'),
 ]
 
-console.log(allData)
-
-// fs.unlinkSync(path.resolve(__dirname, 'hospitals.json'))
-// fs.writeFileSync(path.resolve(__dirname, 'hospitals.json'), JSON.stringify(allData))
+fs.unlinkSync(path.resolve(__dirname, 'hospitals.json'))
+fs.writeFileSync(path.resolve(__dirname, 'hospitals.json'), JSON.stringify(allData))
