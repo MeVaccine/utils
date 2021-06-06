@@ -200,373 +200,298 @@
         "priority": 2
     },
     {
-        "name_th": "โรงพยาบาลกล้วยน้ำไท2",
-        "name_en": "Dummy",
+        "name_th": "โรงพยาบาลกล้วยน้ำไท 2",
+        "name_en": "Kluaynamthai 2 Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลมนารมย์",
-        "name_en": "Dummy",
+        "name_en": "Manarom Hospital",
         "priority": 2
     },
     {
-        "name_th": "โรงพยาบาลบางปะกอก8",
-        "name_en": "Dummy",
+        "name_th": "โรงพยาบาลบางปะกอก 8",
+        "name_en": "Bangpakok 8 International",
         "priority": 2
     },
     {
-        "name_th": "โรงพยาบาลบางมด3",
-        "name_en": "Dummy",
+        "name_th": "โรงพยาบาลบางมด 3",
+        "name_en": "Bangmod 3 Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลยันฮี",
-        "name_en": "Dummy",
+        "name_en": "Yanhee Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลมเหสักข์",
-        "name_en": "Dummy",
+        "name_en": "Mahaesak Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลเลิดสิน",
-        "name_en": "Dummy",
+        "name_en": "Lerdsin Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลกรุงเทพคริสเตียน",
-        "name_en": "Dummy",
+        "name_en": "Bangkok Christian Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลบีเอ็นเอช",
-        "name_en": "Dummy",
-        "priority": 2
-    },
-    {
-        "name_th": "โรงพยาบาลสุรศักดิ์สีลม",
-        "name_en": "Dummy",
+        "name_en": "BNH Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลวิภารามนวมินทร์",
-        "name_en": "Dummy",
+        "name_en": "Wipha Ram Nawa Min Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลพญาไทนวมินทร์",
-        "name_en": "Dummy",
+        "name_en": "Phaya Thai Nawamin Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลบางจาก",
-        "name_en": "Dummy",
+        "name_en": "Bangchak Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลนวเวช",
-        "name_en": "Dummy",
+        "name_en": "Navavej International Hospital.",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลจุฬาลงกรณ์",
-        "name_en": "Dummy",
+        "name_en": "Chulalongkorn Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลตำรวจ",
-        "name_en": "Dummy",
+        "name_en": "Police Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลสิรินธร",
-        "name_en": "Dummy",
+        "name_en": "Sirindhorn Hospital",
         "priority": 2
     },
     {
-        "name_th": "โรงพยาบาลจุฬารัตน์7",
-        "name_en": "Dummy",
-        "priority": 2
-    },
-    {
-        "name_th": "โรงพยาบาลกลาง",
-        "name_en": "Dummy",
+        "name_th": "โรงพยาบาลจุฬารัตน์ 7",
+        "name_en": "Chularat 7 Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลหัวเฉียว",
-        "name_en": "Dummy",
+        "name_en": "Hua Chiew Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลธนบุรีบำรุงเมือง",
-        "name_en": "Dummy",
+        "name_en": "Thonburi Bamrungmuang Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลอังคทะวานิช",
-        "name_en": "Dummy",
+        "name_en": "Ang Kharthara Wanit Hospital",
         "priority": 2
     },
     {
-        "name_th": "โรงพยาบาลพญาไท2",
-        "name_en": "Dummy",
+        "name_th": "โรงพยาบาลพญาไท 2",
+        "name_en": "Phyathai 2 Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลประสานมิตร",
-        "name_en": "Dummy",
+        "name_en": "Prasarnmit Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลวิชัยยุทธ",
-        "name_en": "Dummy",
+        "name_en": "Vichaiyut Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลนวุติสมเด็จย่า",
-        "name_en": "Dummy",
-        "priority": 2
-    },
-    {
-        "name_th": "โรงพยาบาลทาเคดา",
-        "name_en": "Dummy",
+        "name_en": "Nawut Somdet Ya Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลบางไผ่",
-        "name_en": "Dummy",
+        "name_en": "Bang Phai Hospital",
         "priority": 2
     },
     {
-        "name_th": "โรงพยาบาลเพชรเกษม2",
-        "name_en": "Dummy",
+        "name_th": "โรงพยาบาลเพชรเกษม 2",
+        "name_en": "Petkasem 2 Hospital",
         "priority": 2
     },
     {
-        "name_th": "โรงพยาบาลพญาไท3",
-        "name_en": "Dummy",
-        "priority": 2
-    },
-    {
-        "name_th": "โรงพยาบาลอินเตอร์เมด",
-        "name_en": "Dummy",
+        "name_th": "โรงพยาบาลพญาไท 3",
+        "name_en": "Phyathai 3 Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลเสรีรักษ์",
-        "name_en": "Dummy",
+        "name_en": "Seriruk Hospital",
         "priority": 2
     },
     {
-        "name_th": "โรงพยาบาลนวมินทร์9",
-        "name_en": "Dummy",
+        "name_th": "โรงพยาบาลนวมินทร์ 9",
+        "name_en": "Navamin 9 Hospital",
         "priority": 2
     },
     {
-        "name_th": "โรงพยาบาลพญาไท1",
-        "name_en": "Dummy",
+        "name_th": "โรงพยาบาลพญาไท 1",
+        "name_en": "Phyathai 1 Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลราชวิถี",
-        "name_en": "Dummy",
+        "name_en": "Rajavithi Hospital",
         "priority": 2
     },
     {
-        "name_th": "โรงพยาบาลบางปะกอก1",
-        "name_en": "Dummy",
+        "name_th": "โรงพยาบาลบางปะกอก 1",
+        "name_en": "Bangpakok Hospital 1",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลราษฎร์บูรณะ",
-        "name_en": "Dummy",
+        "name_en": "Rat Burana Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลประชาพัฒน์",
-        "name_en": "Dummy",
+        "name_en": "Prachapat Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลสุขสวัสดิ์",
-        "name_en": "Dummy",
+        "name_en": "Suksawat Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลประชาสรรประชารักษ์",
-        "name_en": "Dummy",
+        "name_en": "Pracharak Vejchakarn Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลลาดกระบัง",
-        "name_en": "Dummy",
+        "name_en": "Ladkrabang Hospital",
         "priority": 2
     },
     {
-        "name_th": "โรงพยาบาลลาดกระบังเมโมเรียล",
-        "name_en": "Dummy",
-        "priority": 2
-    },
-    {
-        "name_th": "โรงพยาบาลเปาโลโชคชัย4",
-        "name_en": "Dummy",
+        "name_th": "โรงพยาบาลเปาโลโชคชัย 4",
+        "name_en": "Paolo Hospital Chockchai 4",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลลาดพร้าว",
-        "name_en": "Dummy",
+        "name_en": "Ladprao Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลสุขุมวิท",
-        "name_en": "Dummy",
-        "priority": 2
-    },
-    {
-        "name_th": "โรงพยาบาลคามิลเลียน",
-        "name_en": "Dummy",
+        "name_en": "Sukumvit Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลบำรุงราษฎร์",
-        "name_en": "Dummy",
-        "priority": 2
-    },
-    {
-        "name_th": "โรงพยาบาลบ้านแพ้วสาขาพร้อมมิตร",
-        "name_en": "Dummy",
-        "priority": 2
-    },
-    {
-        "name_th": "โรงพยาบาลมหาวิทยาลัยแม่ฟ้าหลวง",
-        "name_en": "Dummy",
+        "name_en": "BBL Bamrungrad Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลพระมงกุฎ",
-        "name_en": "Dummy",
+        "name_en": "Phramongkutklao Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลสมิติเวชสุขุมวิท",
-        "name_en": "Dummy",
+        "name_en": "Samitivej Sukhumvit Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลแพทย์ปัญญา",
-        "name_en": "Dummy",
+        "name_en": "Phaetpanya Hospital",
         "priority": 2
     },
     {
-        "name_th": "โรงพยาบาลวิภารามพัฒนาการ",
-        "name_en": "Dummy",
+        "name_th": "โรงพยาบาลวิภาราม",
+        "name_en": "Wipharam Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลสมิติเวชศรีนครินทร์",
-        "name_en": "Dummy",
+        "name_en": "Samitivej Srinakarin Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลเกษมราษฎร์รามคำแหง",
-        "name_en": "Dummy",
+        "name_en": "Kasemrat Ramkhamhaeng Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลสมิติเวชไชน่าทาวน์",
-        "name_en": "Dummy",
-        "priority": 2
-    },
-    {
-        "name_th": "โรงพยาบาล​เทียนฟ้า",
-        "name_en": "Dummy",
-        "priority": 2
-    },
-    {
-        "name_th": "โรงพยาบาลบ้านแพ้วสาทร",
-        "name_en": "Dummy",
+        "name_en": "Samitivej Chinatown Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลเซนต์หลุยส์",
-        "name_en": "Dummy",
+        "name_en": "Saint Louis Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลสายไหม",
-        "name_en": "Dummy",
-        "priority": 2
-    },
-    {
-        "name_th": "โรงพยาบาลภูมิพลอดุลยเดชกรมแพทย์ทหารอากาศ",
-        "name_en": "Dummy",
-        "priority": 2
-    },
-    {
-        "name_th": "โรงพยาบาลวิชัยเวชอินเตอร์เนชั่นแนลหนองแขม",
-        "name_en": "Dummy",
+        "name_en": "CHG Saimai Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลหลวงพ่อทวีศักดิ์ชุตินธโรอุทิศ",
-        "name_en": "Dummy",
+        "name_en": "Luang Pho Thawisak Chutindharo Uthit Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลเวชการุณย์รัศมิ์",
-        "name_en": "Dummy",
+        "name_en": "Vejakarunrasm Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลมงกุฎวัฒนะ",
-        "name_en": "Dummy",
+        "name_en": "Mongkutwattana General Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลจุฬาภรณ์",
-        "name_en": "Dummy",
+        "name_en": "Chulabhorn Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลเพชรเวช",
-        "name_en": "Dummy",
-        "priority": 2
-    },
-    {
-        "name_th": "โรงพยาบาลโกลเด้นเยียส์",
-        "name_en": "Dummy",
+        "name_en": "Petcharavej Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลปิยะเวท",
-        "name_en": "Dummy",
+        "name_en": "Piyavate Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลคลองตัน",
-        "name_en": "Dummy",
+        "name_en": "Klongtun Medical Center",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลพระรามเก้า",
-        "name_en": "Dummy",
-        "priority": 2
-    },
-    {
-        "name_th": "โรงพยาบาลวัฒโนสถ",
-        "name_en": "Dummy",
+        "name_en": "Praram 9 Hospital",
         "priority": 2
     },
     {
         "name_th": "โรงพยาบาลกรุงเทพ",
-        "name_en": "Dummy",
-        "priority": 2
-    },
-    {
-        "name_th": "โรงพยาบาลนมะรักษ์",
-        "name_en": "Dummy",
+        "name_en": "Bangkok Hospital",
         "priority": 2
     }
 ]
