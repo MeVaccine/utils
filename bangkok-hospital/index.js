@@ -1,11 +1,7 @@
-const fs = require('fs')
-const path = require('path')
 const generateDateTime = require('./dateTime')
 const nonthaburi = require('./nonthaburi.json')
+const bangkok = require('./bangkok.json')
 
-const rawBangkok = fs.readFileSync(path.resolve(__dirname, 'bangkok.txt'), 'utf-8')
-
-const hospitalName = rawBangkok.split('<td>')
 const avaliableVaccines = [
 	{
 		name: 'Sinovac',
@@ -34,44 +30,33 @@ const avaliableVaccines = [
 	},
 ]
 
-const bangkokHospital = hospitalName.map(el => {
-	const generatedDateTime = generateDateTime()
-	const vaccineRandom = Math.floor(Math.random() * 3)
-	const returnData = {
-		name_th: el,
-		name_en: 'Dummy',
-		dateTime: generatedDateTime,
-		vaccines: [avaliableVaccines[0], avaliableVaccines[1], avaliableVaccines[2]],
-		priority: 2,
-		province_th: 'กรุงเทพมหานคร',
-		province_en: 'Bangkok',
-	}
-	for (let i = 1; i <= vaccineRandom; i++) {
-		returnData.vaccines.push(avaliableVaccines[2 + i])
-	}
-	return returnData
-})
+const generateData = (hospitals, province_th, province_en) => {
+	return hospitals.map(el => {
+		const generatedDateTime = generateDateTime()
+		const vaccineRandom = Math.floor(Math.random() * 3)
+		const data = {
+			name_th: el.name_th,
+			name_en: el.name_en,
+			dateTime: generatedDateTime,
+			vaccines: [avaliableVaccines[0], avaliableVaccines[1], avaliableVaccines[2]],
+			priority: el.priority,
+			province_th,
+			province_en,
+		}
 
-const nonthaburiHospital = nonthaburi.map(el => {
-	const generatedDateTime = generateDateTime()
-	const vaccineRandom = Math.floor(Math.random() * 3)
-	const data = {
-		name_th: el.name_th,
-		name_en: el.name_en,
-		dateTime: generatedDateTime,
-		vaccines: [avaliableVaccines[0], avaliableVaccines[1], avaliableVaccines[2]],
-		priority: el.priority,
-		province_th: 'นนทบุรี',
-		province_en: 'Nonthaburi',
-	}
+		for (let i = 1; i <= vaccineRandom; i++) {
+			data.vaccines.push(avaliableVaccines[2 + i])
+		}
+		return data
+	})
+}
 
-	for (let i = 1; i <= vaccineRandom; i++) {
-		data.vaccines.push(avaliableVaccines[2 + i])
-	}
-	return data
-})
+const allData = [
+	...generateData(bangkok, 'กรุงเทพมหานคร', 'Bangkok'),
+	...generateData(nonthaburi, 'นนทบุรี', 'Nonthaburi'),
+]
 
-const allData = [...bangkokHospital, ...nonthaburiHospital]
+console.log(allData)
 
-fs.unlinkSync(path.resolve(__dirname, 'hospitals.json'))
-fs.writeFileSync(path.resolve(__dirname, 'hospitals.json'), JSON.stringify(allData))
+// fs.unlinkSync(path.resolve(__dirname, 'hospitals.json'))
+// fs.writeFileSync(path.resolve(__dirname, 'hospitals.json'), JSON.stringify(allData))
