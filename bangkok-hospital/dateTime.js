@@ -28,6 +28,12 @@ const generateDateTime = () => {
 			avaliable: 100,
 		})
 		datetimes.push({
+			startDateTime: startDate.hour(12).format(),
+			endDateTime: startDate.hour(13).format(),
+			capacity: 100,
+			avaliable: 100,
+		})
+		datetimes.push({
 			startDateTime: startDate.hour(13).format(),
 			endDateTime: startDate.hour(14).format(),
 			capacity: 100,

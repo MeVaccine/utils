@@ -32,8 +32,8 @@ const avaliableVaccines = [
 	},
 ]
 
-const generateData = (hospitals, province_th, province_en) => {
-	return hospitals.map(el => {
+const generateData = (locations, province_th, province_en) => {
+	return locations.map(el => {
 		const generatedDateTime = generateDateTime()
 		const vaccineRandom = Math.floor(Math.random() * 3)
 		const data = {
@@ -58,5 +58,5 @@ const allData = [
 	...generateData(nonthaburi, 'นนทบุรี', 'Nonthaburi'),
 ]
 
-fs.unlinkSync(path.resolve(__dirname, 'hospitals.json'))
-fs.writeFileSync(path.resolve(__dirname, 'hospitals.json'), JSON.stringify(allData))
+fs.unlinkSync(path.resolve(__dirname, 'locations.json'))
+fs.writeFileSync(path.resolve(__dirname, 'locations.json'), JSON.stringify(allData))
