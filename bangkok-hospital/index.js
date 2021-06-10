@@ -6,27 +6,37 @@ const bangkok = require('./bangkok.json')
 
 const avaliableVaccines = [
 	{
-		name: 'Sinovac',
+		vaccine: {
+			$oid: '60c1872339fa5e71b0ca2fad',
+		},
 		amount: 5000,
 		avaliable: 5000,
 	},
 	{
-		name: 'Sinopharm',
+		vaccine: {
+			$oid: '60c1872339fa5e71b0ca2fae',
+		},
 		amount: 5000,
 		avaliable: 5000,
 	},
 	{
-		name: 'Oxford–AstraZeneca',
+		vaccine: {
+			$oid: '60c1872339fa5e71b0ca2faf',
+		},
 		amount: 10000,
 		avaliable: 10000,
 	},
 	{
-		name: 'Pfizer-BioNTech',
+		vaccine: {
+			$oid: '60c1872339fa5e71b0ca2fb0',
+		},
 		amount: 10000,
 		avaliable: 10000,
 	},
 	{
-		name: 'Moderna',
+		vaccine: {
+			$oid: '60c1872339fa5e71b0ca2fb1',
+		},
 		amount: 5000,
 		avaliable: 5000,
 	},
