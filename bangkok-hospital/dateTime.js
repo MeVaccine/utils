@@ -7,7 +7,7 @@ dayjs.extend(timezone)
 const generateDateTime = () => {
 	const datetimes = []
 	let startDate = dayjs.utc('2021-07-01', 'YYYY-MM-DD').utcOffset(7)
-	const endDate = dayjs.utc('2021-07-31', 'YYYY-MM-DD').utcOffset(7)
+	const endDate = dayjs.utc('2021-12-31', 'YYYY-MM-DD').utcOffset(7)
 	while (!startDate.isSame(endDate)) {
 		datetimes.push({
 			startDateTime: startDate.hour(9).format(),
