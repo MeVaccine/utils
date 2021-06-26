@@ -2,23 +2,28 @@
     {
         "name": "Sinovac",
         "minAge": 18,
-        "maxAge": 60
+        "maxAge": 60,
+        "duration": 3
     },
     {
         "name": "Sinopharm",
         "minAge": 18,
-        "maxAge": 60
+        "maxAge": 60,
+        "duration": 3
     },
     {
         "name": "Oxford–AstraZeneca",
-        "minAge": 18
+        "minAge": 18,
+        "duration": 12
     },
     {
         "name": "Pfizer-BioNTech",
-        "minAge": 12
+        "minAge": 12,
+        "duration": 3
     },
     {
         "name": "Moderna",
-        "minAge": 18
+        "minAge": 18,
+        "duration": 4
     }
 ]
